@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #DFD19B;
+  font: 13px Arial;
+}
+
+a {
+  color: #1B3A5A;
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+  font-weight: normal;
+  margin: 10px 0 5px 0;
+  padding: 2px;
+}
+h2 {
+  font-size: 14px;
+  color: #333;
+  font-weight: bold;
+  margin: 0 0 5px 0;
+  padding: 2px;
+  background: #E4E6C9;
+}
+
+.error { color: #ff0000}
+
+.status { color: #0000ff}
+
+
+ul {
+  padding: 0 0 0 20px;
+  margin: 0;
+}
+
+li {
+  padding: 2px;
+  margin: 0;
+}
+.shadow {
+  background: #333;
+  position: relative;
+}
+
+.contentbox {
+  background: #fff;
+  position: relative;
+  left: -4px;
+  top: -4px;
+  padding: 5px;
+}
+
+.planeimage {
+  width: 200px;
+  height: 100px;
+  margin: 0 10px 10px 0;
+  float: left;
+}
+
+.thumbnailimage {
+  width: 16px;
+  height: 16px;
+}
+
+
+#wrapleft {
+  width: 85%;
+  padding-left: 20px;
+  margin: 0 auto;
+  background: #E4E6C9 url('../images/bg-left.png') repeat-y left center;
+}
+
+#wrapright {
+  padding-right: 20px;
+  background: #E4E6C9 url('../images/bg-right.png') repeat-y right center;  
+}
+
+#header {
+  padding: 5px;
+  height: 118px;
+  overflow: hidden;
+  background: url('../images/banner.png') no-repeat left center;
+  border-bottom: 1px solid #B8AC80;
+}
+
+#controls {
+  float: right;
+  
+}
+
+#controls .contentbox {
+  background: #C0C2AC;
+  padding: 5px;
+  left: -2px;
+  top: -2px;
+}
+
+#controls .thumbnail {
+  width: 24px;
+  height: 24px;
+  vertical-align: sub;
+}
+
+#content {
+  padding: 10px;
+  border-bottom: 2px solid #B8AC80;  
+}
+
+
+#loginbar {
+  margin-right: 0px;
+}
+
+#leftbar {
+  margin-right: 320px;
+}
+
+
+
+#rightbar {
+  width: 300px;
+  float: right;
+  margin-left: 12px;
+}
+
+#rightbar .shadow {
+  margin-bottom: 20px;
+}
+
+#footer {
+  clear: both;
+  margin-top: 10px;
+  font-size: 10px;
+  padding: 2px;
+  text-align: center;
+}
+
+.comments {
+  margin: 10px auto;
+}
+
+.planes,
+.stats {
+  border-collapse: collapse;
+}
+
+.planes table { 
+  width: 100%; 
+}
+
+.planes td,
+.stats td {
+  padding: 5px;
+}
+
+.planes .even,
+.stats .even {
+  background: #fff;
+}
+
+.planes .odd,
+.stats .odd {
+  background: #eee;
+}
+
+.stats {
+  width: 100%;
+}
+.stats th {
+  text-align: right;
+  width: 100px;
+}

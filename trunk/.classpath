@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="com.google.appengine.eclipse.core.GAE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/Users/cschalk/java-rest/javarest-5-13/opensocial-java-client-read-only/java/dist/opensocial.jar"/>
+	<classpathentry kind="lib" path="/Users/cschalk/java-rest/javarest-5-13/opensocial-java-client-read-only/java/lib/commons-codec-1.3.jar"/>
+	<classpathentry kind="lib" path="/Users/cschalk/java-rest/javarest-5-13/opensocial-java-client-read-only/java/lib/junit-4.5.jar"/>
+	<classpathentry kind="lib" path="/Users/cschalk/java-rest/javarest-5-13/opensocial-java-client-read-only/java/lib/javax.servlet_2.4.0.v200806031604.jar"/>
+	<classpathentry kind="lib" path="/Users/cschalk/java-rest/javarest-5-13/opensocial-java-client-read-only/java/lib/oauth-core-20090105.jar"/>
+	<classpathentry kind="lib" path="/Users/cschalk/java-rest/javarest-5-13/opensocial-java-client-read-only/java/lib/json.jar"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>

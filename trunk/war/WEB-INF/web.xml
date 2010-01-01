@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="2.5">
+	<servlet>
+		<servlet-name>register</servlet-name>
+		<servlet-class>com.google.controller.RegisterUserServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>register</servlet-name>
+		<url-pattern>/register</url-pattern>
+	</servlet-mapping>
+	
+	
+		<servlet>
+		<servlet-name>reset</servlet-name>
+		<servlet-class>com.google.controller.ResetRegistryServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>reset</servlet-name>
+		<url-pattern>/reset</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>selectfave</servlet-name>
+		<servlet-class>com.google.controller.SelectFaveServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>selectfave</servlet-name>
+		<url-pattern>/selectfave</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>processgfclogin</servlet-name>
+		<servlet-class>com.google.controller.ProcessGFCLoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>processgfclogin</servlet-name>
+		<url-pattern>/processgfclogin</url-pattern>
+	</servlet-mapping>
+
+		<servlet>
+		<servlet-name>settings</servlet-name>
+		<servlet-class>com.google.controller.ProcessSettingsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>settings</servlet-name>
+		<url-pattern>/settings</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>processlogin</servlet-name>
+		<servlet-class>com.google.controller.ProcessLoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>processlogin</servlet-name>
+		<url-pattern>/processlogin</url-pattern>
+	</servlet-mapping>
+
+		<servlet>
+		<servlet-name>verifyemail</servlet-name>
+		<servlet-class>com.google.controller.VerifyEmailServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>verifyemail</servlet-name>
+		<url-pattern>/verifyemail</url-pattern>
+	</servlet-mapping>
+
+	
+	 <filter>
+    <filter-name>SecurityFilter</filter-name>
+    <filter-class>com.google.security.SecurityFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>SecurityFilter</filter-name>
+    <url-pattern>/app/*</url-pattern>
+  </filter-mapping>
+	
+	
+	
+	
+  <servlet>
+    <servlet-name>xmppreceiver</servlet-name>
+    <servlet-class>com.google.controller.XMPPReceiverServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>xmppreceiver</servlet-name>
+    <url-pattern>/_ah/xmpp/message/chat/</url-pattern>
+  </servlet-mapping>
+	
+	
+	
+	
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+</web-app>
